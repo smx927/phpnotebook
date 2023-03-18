@@ -7,17 +7,20 @@
 
 #### 软件架构
 软件架构说明 使用 ace-editor markdown sqlite数据库
+![默认首页图](images/index.png)
+![列表图](images/list.png)
+![详情图](images/detail.png)
 
 
 #### 安装教程
 
-无需配置数据库
+无需配置数据库 可运行php即可
 
 #### 使用说明
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  运行php  python  C/C++ SQL
+2.  每个笔记可以增加自己的说明 markdown编辑器
+3.  记录每次的修改，统计每天的新增和修改
 
 #### 参与贡献
 
