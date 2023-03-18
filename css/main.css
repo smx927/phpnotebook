@@ -1,0 +1,105 @@
+﻿body {
+    background-color: #F0F0F0;
+    padding-top: 50px; 
+    font-family: 'Microsoft Yahei', Arial, 'Hiragino Sans GB', 'Simsun,sans-self';
+}
+
+/* logo 样式*/
+#logo span{
+    background: url(../images/phpedia.png) no-repeat;
+    display: inline-block;
+    height: 20px;
+    width: 120px;
+}
+
+/* 调整顶部导航样式*/
+.navbar-default .navbar-nav > li > a:hover {
+    background-color: #efefef;
+}
+
+.navbar-default .navbar-nav > li > a.active {
+    background-color: #efefef;
+}
+
+/*正文区域*/
+.page-content {
+    margin: 10px 0;
+    padding-bottom: 60px;
+    color: #333;
+    font-size: 14px;
+    line-height: 22px;
+    word-break: break-all;
+}
+.page-content ol, .page-content .ul{
+    padding-left: 15px;
+}
+
+.page-content p {
+
+}
+
+/*不换行*/
+.page-content tbody td{
+    white-space: nowrap;
+}
+
+.page-header h1 {
+    font-size: 22px;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: brown;
+}
+
+.page-content h2 {
+    font-size: 20px;
+}
+
+.page-content h3 {
+    font-size: 18px;
+}
+
+.page-content h4 {
+    font-size: 16px;
+}
+
+.page-content h5 {
+    font-size: 14px;
+    font-weight: bold;
+}
+.page-content blockquote
+{
+    font-size: 14px;
+}
+
+footer {
+    margin-top:4px;
+    border-top: 1px solid #ccc;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+}
+
+footer a {
+    color: #666;
+}
+
+#entry_left_part{
+    overflow-y: hidden;
+    width: 205px;
+    position: fixed;
+    *position: relative;
+    float: left;
+    margin: 0;
+    top: 55px;
+    padding-left: 5px;padding-right: 5px;
+}
+
+#entry_right_part{
+    min-height: 600px;
+    overflow-y: hidden;
+    margin-left: 205px;
+    position: relative;
+    background: #fff;
+}
