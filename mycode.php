@@ -223,8 +223,7 @@ a.selected{background:#eee; color:#333;}
 </div>
     <footer class="footer_fun" style="display: none; " > 
         <div  onclick="closelayer(this)" class="open_right"  >‹</div> 
-        <input type="button" name="savecode" value="编辑标题和属性" onclick="edit_title()" class="savecode" > 
-        <input type="button" name="savecode" value="保存代码" onclick="savecode()" class="savecode" > 
+        <input type="button" name="savecode" value="保存代码" onclick="edit_title()" class="savecode" >
         <input type="button" name="" onclick="runCode(this)"    class="runcode" value="执行代码">  
         <input type="button" name="" onclick="closelayer(this)"   class="close" value="收起底部">
     </footer>
